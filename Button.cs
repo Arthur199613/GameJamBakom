@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Button : MonoBehaviour
 {
+//
     private Rigidbody2D rb;
     //private Collider2D trigger;
     public bool circleKey = true;
