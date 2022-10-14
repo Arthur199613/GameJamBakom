@@ -53,6 +53,10 @@ sysinfo.txt
 
 # Builds
 *.apk
+<<<<<<< HEAD
+=======
+
+>>>>>>> 66b0943ef69c7dc3cafc45b69056815941d97840
 
 # Crashlytics generated file
 crashlytics-build.properties
