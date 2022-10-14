@@ -1,6 +1,6 @@
 private bool CanJump()
     {
-        ground = GameObject.FindGameObjectWithTag("Ground").GetComponent<Collider2D>();
+        Collider2D ground = GameObject.FindGameObjectWithTag("Ground").GetComponent<Collider2D>();
         Collider2D triangle = GameObject.FindGameObjectWithTag("Triangle").GetComponent<Collider2D>();
 
         if(playerRb.IsTouching(ground) | playerRb.IsTouching(triangle))
